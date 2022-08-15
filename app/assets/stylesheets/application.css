@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "boostrap";
+
+.container {
+  text-align: center;
+  align-content: center;
+  width: 500px;
+}
+.flex-item {
+  background-color: cornflowerblue;
+  color: white;
+  width: 30px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.flex-container {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin: 10px;
+}
